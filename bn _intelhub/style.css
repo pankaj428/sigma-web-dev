@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+.hero-section p{
+    font-size: 20;
+    color: grey;
+    line-height: 1.5;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.hero-section{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
