@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display property</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid blue;
+            display: inline-block;
+            padding: 45px;
+            margin: 20px;
+            width: 344px;
+            /* display: none; */
+        }
+        .box1{
+            /* display: none; */
+            /* display none removes element as well as space ocuupied */
+            /* visibility: hidden; */
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        I ama div
+    </div>
+    <div class="box">
+        I am another width
+    </div>
+</body>
+</html>

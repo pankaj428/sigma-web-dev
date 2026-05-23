@@ -1,0 +1,412 @@
+.slider-img{
+
+    height:75vh;
+
+    width:100%;
+
+    object-fit:cover;
+}
+
+@media(max-width:768px){
+    .slider-img{
+        height: 30vh;
+    }
+}
+
+.cards{
+    padding: 20px;
+}
+#cards{
+    display: flex;
+    gap: 20px;
+}
+
+/* @media(max-width:768px){
+    #cards{
+        width: 100vw;
+    }
+} */
+ .dropdown:hover .dropdown-menu{
+    display: block;
+ }
+
+ .counter-card{
+
+    background:white;
+
+    padding:40px 20px;
+
+    border-radius:25px;
+
+    border:1px solid #edf0f7;
+
+    transition:0.3s;
+
+    height:100%;
+
+    overflow: hidden;
+}
+
+.counter-card:hover{
+
+    transform: scale(1.02);
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.12);
+}
+
+.icon-box{
+
+    width:70px;
+    height:70px;
+
+    background:#eef2ff;
+
+    border-radius:20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:auto auto 25px;
+}
+
+.icon-box i{
+
+    font-size:32px;
+
+    color:#2563eb;
+}
+
+.counter{
+
+    font-size:2.5rem;
+
+    font-weight:800;
+
+    color:#0f172a;
+
+    word-break: break-word;
+}
+
+.counter-card p{
+
+    font-size:1.4rem;
+
+    font-weight:600;
+
+    color:#64748b;
+}
+
+@media(max-width:768px){
+
+    .counter{
+
+        font-size:2rem;
+    }
+
+    .counter-card p{
+
+        font-size:1rem;
+    }
+
+    .counter-card{
+
+        padding:25px 10px;
+    }
+
+    .icon-box{
+
+        width:55px;
+        height:55px;
+    }
+
+    .icon-box i{
+
+        font-size:24px;
+    }
+}
+
+
+
+
+/* services */
+
+.service-card{
+
+    border:none;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+
+    will-change: transform;
+
+    backface-visibility: hidden;
+    display:block;
+}
+
+.service-card:hover{
+
+    transform: scale(1.02);
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.12);
+}
+.service-img{
+
+    height:240px;
+
+    object-fit:cover;
+}
+
+.service-card .card-body{
+
+    padding:25px;
+}
+
+.service-card .card-title{
+
+    text-align: center;
+
+    font-size:1.5rem;
+
+    font-weight:650;
+
+    margin-bottom:15px;
+}
+
+.service-card .card-text{
+
+    color:#64748b;
+
+    line-height:1.7;
+}
+
+@media(max-width:768px){
+
+    .service-img{
+
+        height:200px;
+    }
+}
+
+
+
+
+
+/* for why choose us */
+
+
+body{
+
+    background:#f8fafc;
+    overflow-x: hidden;
+}
+
+
+
+
+.small-title{
+
+    color:#a855f7;
+
+    font-weight:600;
+
+    margin-bottom:10px;
+}
+
+
+
+.main-title{
+
+    font-size:2rem;
+
+    font-weight:800;
+
+    color:#0f172a;
+}
+
+
+
+.main-title span{
+
+    color:#9333ea;
+}
+
+
+
+.sub-text{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#64748b;
+
+    font-size:1rem;
+}
+
+
+
+/* card */
+
+.feature-card{
+
+    background:white;
+
+    padding:50px 30px;
+
+    border-radius:25px;
+
+    border:1px solid #e5e7eb;
+
+    transition:0.3s;
+
+    height:100%;
+}
+
+
+
+.feature-card:hover{
+
+    transform: scale(1.02);
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.12);
+}
+
+
+
+/* icon */
+
+.feature-icon{
+
+    width:90px;
+
+    height:90px;
+
+    background:#faf5ff;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto auto 30px;
+}
+
+
+
+.feature-icon i{
+
+    font-size:40px;
+
+    color:#a855f7;
+}
+
+
+
+/* text */
+
+.feature-card h3{
+
+    font-size:1.5rem;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+    color:#0f172a;
+}
+
+
+
+.feature-card p{
+
+    color:#64748b;
+
+    line-height:1.8;
+
+    font-size:1rem;
+}
+
+
+
+
+/*  Testinimials*/
+
+.story-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:25px;
+
+    border:1px solid #edf0f7;
+
+    transition:0.3s;
+
+    height:100%;
+}
+
+.story-card:hover{
+
+    transform: scale(1.02);
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.12);
+}
+
+.student-img{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+}
+
+.story-card h5{
+
+    font-weight:700;
+
+    color:#0f172a;
+}
+
+.story-card small{
+
+    color:#1d4ed8;
+
+}
+
+.story-text{
+
+    font-size:1rem;
+
+    line-height:1.8;
+
+    color:#475569;
+}
+
+@media(max-width:768px){
+
+    .story-card{
+
+        padding:20px;
+    }
+
+    .student-img{
+
+        width:55px;
+
+        height:55px;
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1400; px -unit */
+
+            /* vw- viewport unit */
+            width: 80vw;
+            height: 10vh;
+
+            /* center a div. margin:auto is used to center a block level element */
+            margin: auto;
+            text-align: center;
+            background-color: aquamarine;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            margin: 20px auto;
+            border: 2px solid black;
+            width: 80vw;
+            min-height: 80vh;
+            box-sizing: border-box;
+            font-size: 18px;
+            background-color: aquamarine;
+
+        }
+
+        .container > div {
+            border: 2px solid red;
+            font-size: 2rem;
+            width: 50%;
+        }
+        .container > div > div{
+            border: 2px solid blue;
+            width: 50%;
+
+        }
+
+        .mycont {
+            width: 100vmin;
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 20px auto;
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is a box
+    </div>
+
+    <div class="container">
+        This is for em
+
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis autem quos perspiciatis sed laborum
+            deserunt,
+            voluptates veritatis odio nostrum accusantium vero aliquid recusandae.
+            <div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium saepe expedita similique vero laborum, quis exercitationem. Perspiciatis culpa delectus saepe.
+            </div>
+        </div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi aut vitae quod exercitationem! Voluptatum
+        expedita quis aut qui hic minus non nam id odit cupiditate voluptatibus ullam totam cumque aspernatur obcaecati,
+        deserunt earum assumenda! Deserunt vitae, sit temporibus nisi quod aperiam inventore ullam illo excepturi
+        facilis incidunt iure harum exercitationem aspernatur omnis accusantium quis blanditiis assumenda sunt eos ut.
+        Fugiat natus voluptas consectetur tenetur maxime reiciendis, tempora impedit ipsa veritatis, quidem laborum
+        corporis quia excepturi, placeat eos? A ratione, corrupti voluptas doloremque, culpa ipsa in facere sint ullam,
+        magnam temporibus asperiores perferendis velit officiis libero accusantium vero quia molestiae. Vitae!
+    </div>
+    <div class="mycont">
+        i am another container
+    </div>
+</body>
+
+</html>
